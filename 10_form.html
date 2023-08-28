@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style>
+		fieldset {
+			width: 350px;
+			background: cadetblue;
+			box-shadow: 2px 2px 8px;
+			border-radius: 10px;
+		}
+		legend {
+			color: white;
+			background: silver;
+			text-align: center;
+			font-family: times roman;
+			text-transform: uppercase;
+			border-radius: 3.5px;
+
+		}
+		form {
+
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<center>
+		<fieldset>
+			<legend>YOUR PERSONAL INFORMATION</legend>
+		
+		Enter your name :
+		<input type="text" name="Name" value="Navid">
+		<br><br>
+		Enter Password :
+		<input type="Password" name="pass">
+		<br><br>
+		Select your gender :
+		<input type="radio" name="gender" checked>Male
+		<input type="radio" name="gender">Female
+		<br><br>
+		<input type="checkbox" name="checkbox" value="html">HTML		
+        <input type="checkbox" name="checkbox" value="html">CSS
+        <input type="checkbox" name="checkbox" value="html">JAVASCRIPT
+        <input type="checkbox" name="checkbox" value="html">PYTHON
+        <br><br>
+        <textarea name="comment" rows="10" cols="36">
+        </textarea>
+        <br><br>
+        <select name="select">
+        	<option>HTML</option>
+        	<option>CSS</option>
+        	<option>JS</option>
+        	<option>PYTHON</option>
+        </select>
+        <br><br>
+        <input type="submit" name="submit">
+        <input type="button" name="button" onclick="alert ('Hello, World!')" value="click here">
+        <button type="reset">RESET</button>
+	    </fieldset>
+	</center>
+	</form>
+
+</body>
+</html>

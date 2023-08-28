@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fonts [External fonts]</title>
+	<style type="text/css">
+		div {
+			height: 60px;
+			width: auto;
+			border: 2px solid;
+			margin: 5px;
+			text-align: center;
+			line-height: 50px;
+			font-size: 30px;
+		}
+		@font-face {
+			font-family: Font-1;
+			src: url(fonts/Macaroni.ttf)
+		}
+		@font-face {
+			font-family: Font-2;
+			src: url(fonts/CAMPUS.ttf)
+		}
+		@font-face {
+			font-family: Font-3;
+			src: url(fonts/varsity_regular.ttf)
+		}
+		#div1{
+			font-family: Font-1;
+		}
+		#div2{
+			font-family: Font-2;
+		}
+		#div3{
+			font-family: Font-3;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="div1" style="background-color: cadetblue">How to use external fonts FONT-1</div>
+	<div id="div2" style="background-color: firebrick">How to use external fonts FONT-2</div>
+	<div id="div3" style="background-color: lightgreen">How to use external fonts FONT-3</div>
+
+</body>
+</html>
